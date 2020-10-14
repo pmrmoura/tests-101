@@ -11,14 +11,22 @@ context('Features', () => {
       cy
         .get('body').type('{downarrow}');
     }
-
+    
     for (let i = 0; i < 80; i++) {
       cy
         .get('body').type('{downarrow}');
     }
-
+    
     cy
       .get('#score').should('have.text', '0');
+  })
+
+  it('Start text', ()=>{
+    cy.get('#start-tetris-game').contains('Start')
+  })
+
+  it('Clear text', ()=>{
+    cy.get('#clear-tetris-game').contains('Clear')
   })
 
   it('Test if squares are being shown', () => {
