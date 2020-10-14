@@ -11,14 +11,11 @@ context('Features', () => {
       cy
         .get('body').type('{downarrow}');
     }
-    cy
-      .wait(200);
+
     for (let i = 0; i < 80; i++) {
       cy
         .get('body').type('{downarrow}');
     }
-    cy
-      .wait(500);
 
     cy
       .get('#score').should('have.text', '0');
