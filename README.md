@@ -1,7 +1,7 @@
 # tests-101
 
 ## O projeto
-Testes de um jogo de Tetris desenvolvido para o hackenge (Hackaton + Challenge) da disciplina de Engenharia de Software - IF977 de Sistemas de Informação, CIn UFPE
+Testes feitos com cypress de um jogo de Tetris desenvolvido para o hackenge (Hackaton + Challenge) da disciplina de Engenharia de Software - IF977 de Sistemas de Informação, CIn UFPE
 
 ## Integrantes
 - Alex Paulo Ferreira Damascena
@@ -10,9 +10,10 @@ Testes de um jogo de Tetris desenvolvido para o hackenge (Hackaton + Challenge) 
 - Sofia Melo Lucena
 
 ## Como rodar os testes
-- Clone esse repositorio
 
 ```
+- Clone esse repositorio
+
 - Instalar dependências do projeto
   npm install
 
