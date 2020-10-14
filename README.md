@@ -10,9 +10,10 @@ Testes de um jogo de Tetris desenvolvido para o hackenge (Hackaton + Challenge) 
 - Sofia Melo Lucena
 
 ## Como rodar os testes
-- Clone esse repositorio
 
 ```
+- Clone esse repositorio
+
 - Instalar dependências do projeto
   npm install
 
